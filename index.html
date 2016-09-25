@@ -3,30 +3,402 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Sanjay | Software Engineer- Backend and System Softwares</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Paytone+One" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
 
+    </head>
+    <body>
+    <div style="width:90%">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-1 page-header nav-links" id="introView">
+                <h1>About Me</h1> 
+            </div>
+            <div class="col-sm-1 page-header">
+                <h1>|</h1> 
+            </div>
+            <div class="col-sm-2 page-header nav-links" id="projView">
+                <h1> Projects</h1>
+            </div>
+            <div class="col-sm-1 page-header">
+                <h1>|</h1> 
+            </div>
+            <div class="col-sm-2 page-header nav-links" id="expView">
+                <h1> Experience</h1>
+            </div>
+        </div>
+        <div class="row" id="intro_view">
+            <div class="col-sm-8 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content">
+                            <br>
+                            <br>
+                            Sanjay Singh is a computer science enthusiast and a strong believer in karma.
+                        </div>
+                        <div class="col-sm-8 content">
+                            <br>
+                            Python Fan, Loves building web apps in free time. Previously worked on information integration projects and system level projects.
+                        </div>
+                        <div class="col-sm-12 content">
+                            <br>
+                            Weapons in Arsenal: C/C++, Python, Angular, Jquery, Flask, Django, NodeJS
+                        </div>
+                        <div class="col-sm-8 content">
+                            <br>
+                            Currently working with an awesome group of people at VMware and trying to solve some interesting problems.
+
+                        </div>
+                        <div class="col-sm-8 content">
+                            <br>
+                            <br>
+                            <b>Education:</b>
+                        </div>
+                        <div class="col-sm-8 content">                          
+                            <br>
+                            Master's Computer Science (University of Southern California)                            
+                        </div>
+                        <div class="col-sm-8 content">
+                            <br>                          
+                           Bachelor's (PICT University of Pune)
+                            <br><br>                            
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-sm-3">
+                <img src="img/prof.jpg" height="300 px" width="300 px" />
+            </div>
+            <div class="col-sm-12 col-sm-offset-1">
+                <div class="col-sm-12 content">
+                    <h2 class="content">Life Mantra</h2>
+                    <h1 >"Arise,awake and do not stop until the goal is reached."</h1>
+                </div>
+                <div class="col-sm-2 col-sm-offset-8 content">
+                    -Swami Vivekananda
+                </div>
+            </div>
+        </div>
+        <div class="row" id="proj_view">
+             <div class="col-sm-10 col-sm-offset-1">
+                <div class="row" style="margin-top:1%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Analysis of Egocentric Videos – Video Compression and Image Compression techniques</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Jan 2016 - May 2016</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-6 content date" style="margin-top:1%;">                            
+                            <a href="https://github.com/cjsanjay/Egocentric-video-analysis"> Github</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Implemented video compression, image compression, quantization and subsampling algorithms in C++.</p>
+                            <p>Developed a windows based application using Visual Studio and C++ for analysis of Egocentric Videos, which involved doing image indexing in the video, summarization of video and basic play, pause and video-audio sync functionality.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Crawling, Deduplication, Indexing and Ranking data collected on weapon images and ads using Apache Nutch, Solr and Tika</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Aug 2015 - Dec 2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://github.com/cjsanjay/csci-572-final-project.git"> Github</a>
+                        </div>
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://www.youtube.com/watch?v=we2rbB4z278"> Youtube</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Use Apache open source crawling framework to extract data from web related to weapon images and ads.
+Main aim was to collect weapon images from web and use collected data to perform all analysis and find spatial and temporal patterns.</p>
+                            <p>Developed de-duplication algorithms to detect exact and near duplicates in the extracted data.</p>
+                            <p>Integrated a robust, content-based de-duplication plugin to the crawling framework and improved the quality of the data crawled.</p>
+                            <p>Employed tika image similarity algorithm to find and visualize image clusters in the crawled data.</p>
+                            <p>Used Apache Solr for indexing data and developed a web interface for interacting and visualizing the indexed data using technologies like angular JS, Jquery and D3.js.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Locate My Dish–Web Application</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Sep 2015 - Dec 2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://github.com/cjsanjay/csci584-final-project"> Github</a>
+                        </div>
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://www.youtube.com/watch?v=wx17kJ2dccY"> Youtube</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p> Created a web based application for searching restaurants based on dish name. Used information integration constructs to gather data from different types of data sources like websites and web exposed api using python scripts.</p>
+                            <p>Modeled and processed data into an integrated format using entity resolution techniques,python scripts, google refine and karma.</p>
+                            <p>Developed web interface using angular JS, JQuery and stored back end data into elastic search store.</p>
+                            <p>Used angular JS elastic search interface for querying and displaying results.</p>                        
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Google News Crawler Tool</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Sep 2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://github.com/cjsanjay/googlenews-crawler"> Github</a>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p> Developed crawler for google news in python. Given a specified range of dates and number of pages tool can go inline and collect all news articles published in speficied date range.</p>
+                            <p>Used google news api and web page scraping techniques.</p>                                            
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Generating Place data sets from web</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Aug 2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-1 content date" style="margin-top:1%;">                            
+                            <a href="https://github.com/cjsanjay/address-extractor"> Github</a>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>  Developed python tool for extraction of place names and addresses for a given location.</p>
+                            <p>Geo coded the address information and used the results to compare against currently available location based services.</p>                                            
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Weenix OS layers implementation (Mini Operating System)</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Jun 2015 - Jul 2015</p>
+                        </div>
+                    </div>                    
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Developed kernel layers of weenix which is a toy operating system.</p>
+                            <p>Programmed routines for Process and Threads layer, VFS layer, VM layer.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Android App and web interface for eBay Search</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Jan 2015 - Apr 2015</p>
+                        </div>
+                    </div>                    
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p> Developed web and android application for ebay search using ebay API and deployed the app on amazon ec2 server.</p>
+                            <p>Used PHP for back end and developed front end using HTML/CSS, Jquery and Bootstrap.</p>
+                            <p>Used Java and android SDK for developing android application for search that interacted with server instance deployed on Amazon ec2 cloud server.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Distrosub - Linux Based Distro Customization</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>May 2012 - Mar 2013</p>
+                        </div>
+                    </div>                    
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>  The aim of the project was to develop an easy to use web interface which would allow users to customize any Linux distribution according to their need, so that when they use that Linux distribution all the customization as in applications will come pre-installed in the operating system.</p>
+                            <p>Application was structured as a web application with front-end developed using technologies like Jquery, Ajax and JS routines and Backend of the application was done using django. </p>
+                            <p>Python was used extensively to leverage various libraries and core handles to deal with OS</p>
+                            <p>Application was successful to customize Fedora and Ubuntu based Linux distributions. Project was much appreciated and won various project competitions.</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="exp_view">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>MTS- VM Kernel Intern</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Sep 2016 - Present</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-2 content date" style="margin-top:1%;">                            
+                            <p> VMware Inc.</p>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p> Working with VMKernel team to develop automation framework using Python and native technology.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Summer Research Intern</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>June 2016 - Aug 2016</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-2 content date" style="margin-top:1%;">                            
+                            <p> Information Science Institute USC</p>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Working on techniques for entity resolution and information integration. Using python for implementing algorithms and leveraging spark for efficient execution.</p>
+                            <p>Developed an extractor workflow which uses amazon Mturk as end service. Used Python/Flask and various other flask extensions for creating backend rest API and programmed the frontend using AngularJS, bootstrap and JQuery.</p>
+                            <p>Programmed a tool for applying Hybrid Jaccard over a large collection of data using Spark and python. </p>
+                            <p>Created various data extractor scripts using python to mark and extract data from unstructured text. </p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Research Assistant</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Jan 2016 - Apr 2016</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-2 content date" style="margin-top:1%;">                            
+                            <p> Spatial Science Institue USC</p>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Working as research assistant on project for spatiotemporal data mining and modeling.</p>
+                            <p>Developed crawlers and data extractors in python to collect data from various websites and used USC web karma tool to model data and integrate it.</p>
+                            <p>Published collected data into elastic search store. </p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b>Web Application Developer</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Sep 2015 - Dec 2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-2 content date" style="margin-top:1%;">                            
+                            <p>USC Viterbi School of Engineering</p>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Developed web application for internal projects using HTML/CSS, Javascript, Jquery and PHP.</p>
+                            <p>Projects were aimed at converting various paper based processes into automated web based processes.</p>
+                            <p>Interacted with user to understand the application flow and story boarded whole application.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%;">
+                    <div class="col-sm-12">
+                        <div class="col-sm-8 content projTitle" style="margin-top:1%;">
+                            <b> Associate Consultant</b>
+                        </div>
+                        <div class="col-sm-4 content date" style="margin-top:1%;">
+                            <p>Jul 2013 - Dec 2014</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">                                            
+                        <div class="col-sm-2 content date" style="margin-top:1%;">                            
+                            <p>Tibco Softwares Inc.</p>
+                        </div>                       
+                    </div>
+                    <div class="col-sm-12">                        
+                        <div class="col-sm-12" style="margin-top:1%;font-size:16px;">                            
+                            <p>Developed and supported the web services created on SOA architecture for CITI bank as a client.</p>
+                            <p> Worked in agile development model and supported the project in various stages from basic testing environment to live environment.</p>
+                            <p>Technologies involved JAVA, XML,XSLTand Tibco Native technology(EMS and Business Works).</p>
+                        </div>                        
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <footer style="margin-top:6%">
+            <div class="row" id="contact">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <p><strong>Email:</strong> sanjaysi@usc.edu</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/cjsanjay">https://www.linkedin.com/in/cjsanjay</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p><strong>Github:</strong> <a href="https://github.com/cjsanjay">https://github.com/cjsanjay</a></p>
+                    </div>             
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>    
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

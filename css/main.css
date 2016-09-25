@@ -280,3 +280,36 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*Website CSS*/
+body{
+    background: #fff none repeat scroll 0 0;
+    color: #111;
+    font-family: "Fredo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-links{
+    cursor: pointer;
+}
+
+.content{
+    color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size: 24px;    
+    font-family: 'Droid Sans', sans-serif;
+    line-height:1;
+}
+.container { 
+  padding: 0px;
+}
+
+.date{
+    font-size: 16px;
+}
